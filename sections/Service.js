@@ -143,7 +143,7 @@ const Service = () => {
           </ul>
           <div className="flex justify-center w-full border-t">
             <div>
-              <div className="tab-content tab-space px-6 pt-6 max-w-6xl min-h-[35vh] lg:min-h-[35vh]">
+              <div className="tab-content tab-space px-6 pt-6 max-w-6xl min-h-[38vh] lg:min-h-[35vh]">
                 <div
                   className={openTab === 1 ? "block sm:flex" : "hidden"}
                   id="link1"
