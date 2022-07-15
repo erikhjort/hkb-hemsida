@@ -11,7 +11,7 @@ const About = () => {
       <div className="flex flex-col space-y-1 md:pb-6">
         <h3 className="">Spara tid</h3>
         <p className="text-left ">
-          Att sköta den löpande redovisningen själv kan vara både tidskrävande
+          Att sköta den löpande redovisningen själv kan vara både tidskrävande,
           svårt och dyrt. Ge istället ditt företag chansen att växa och
           utvecklas genom att frigöra tid och resurser till din kärnverksamhet.
           Det är inte bara den löpande redovisningen som kräver tid, det uppstår
