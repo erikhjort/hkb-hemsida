@@ -56,9 +56,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col  items-center w-1/2 space-y-1">
             <MailIcon className="h-6 w-6 md:h-7 md:w-7" />
-            <a href="mailto:wh@hjortkonsultbyra.se">
-              <p>Siljansvägen 21, 79331 Leksand</p>
-            </a>
+            <p>Siljansvägen 21, 79331 Leksand</p>
           </div>
         </div>
 
