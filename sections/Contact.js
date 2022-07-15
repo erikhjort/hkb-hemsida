@@ -39,23 +39,25 @@ const Contact = () => {
         <div className="flex flex-wrap lg:hidden gap-y-4">
           <div className="flex flex-col items-center w-1/2  space-y-1 ">
             <PhoneIcon className="h-6 w-6 md:h-7 md:w-7" />
-            <p className="">070-650 38 56</p>
+            <p>070-650 38 56</p>
           </div>
           <div className="flex flex-col items-center w-1/2 space-y-1">
             <LocationMarkerIcon className="h-6 w-6 md:h-7 md:w-7" />
-            <p className="">Hjortnäsvägen 5, 79331 Leksand</p>
+            <a href="https://www.google.com/maps/place/Hjortn%C3%A4sv%C3%A4gen+5,+793+31+Leksand/@60.7351257,14.9908269,17z/data=!3m1!4b1!4m5!3m4!1s0x466791121578186b:0x9a0e62b6f95ada5c!8m2!3d60.7351257!4d14.9908269">
+              <p>Hjortnäsvägen 5, 79331 Leksand</p>
+            </a>
           </div>
 
           <div className="flex flex-col  items-center w-1/2 space-y-1">
             <AtSymbolIcon className="h-6 w-6 md:h-7 md:w-7" />
             <a href="mailto:wh@hjortkonsultbyra.se">
-              <p className="">wh@hjortkonsultbyra.se</p>
+              <p>wh@hjortkonsultbyra.se</p>
             </a>
           </div>
           <div className="flex flex-col  items-center w-1/2 space-y-1">
             <MailIcon className="h-6 w-6 md:h-7 md:w-7" />
             <a href="mailto:wh@hjortkonsultbyra.se">
-              <p className="">Siljansvägen 21, 79331 Leksand</p>
+              <p>Siljansvägen 21, 79331 Leksand</p>
             </a>
           </div>
         </div>
@@ -63,23 +65,23 @@ const Contact = () => {
         <div className="hidden lg:flex lg:justify-between ">
           <div className="flex flex-col items-center space-y-1">
             <PhoneIcon className="h-8 w-8" />
-            <p className="">070-650 38 56</p>
+            <p>070-650 38 56</p>
           </div>
           <div className="flex flex-col items-center space-y-1">
             <AtSymbolIcon className="h-8 w-8" />
             <a href="mailto:wh@hjortkonsultbyra.se">
-              <p className="">wh@hjortkonsultbyra.se</p>
+              <p>wh@hjortkonsultbyra.se</p>
             </a>
           </div>
           <div className="flex flex-col items-center space-y-1">
             <LocationMarkerIcon className="h-8 w-8" />
             <a href="https://www.google.com/maps/place/Hjortn%C3%A4sv%C3%A4gen+5,+793+31+Leksand/@60.7351257,14.9908269,17z/data=!3m1!4b1!4m5!3m4!1s0x466791121578186b:0x9a0e62b6f95ada5c!8m2!3d60.7351257!4d14.9908269">
-              <p className="">Hjortnäsvägen 5, 79331 Leksand</p>
+              <p>Hjortnäsvägen 5, 79331 Leksand</p>
             </a>
           </div>
           <div className="flex flex-col items-center space-y-1">
             <MailIcon className="h-8 w-8" />
-            <p className="">Siljansvägen 21, 79331 Leksand</p>
+            <p>Siljansvägen 21, 79331 Leksand</p>
           </div>
         </div>
       </div>
