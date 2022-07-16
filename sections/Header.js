@@ -37,7 +37,7 @@ const Header = () => {
           className="hidden items-center md:flex"
           onClick={() => setTheme("light")}
         >
-          <SunIcon className="h-9 w-9 text-hkbdarkmodetext" />
+          <SunIcon className="h-9 w-9 transition-transform ease-in-out hover:scale-125" />
         </button>
       );
     } else {
@@ -46,7 +46,7 @@ const Header = () => {
           className="hidden items-center md:flex"
           onClick={() => setTheme("dark")}
         >
-          <MoonIcon className="h-9 w-9 " />
+          <MoonIcon className="h-9 w-9 transition-transform ease-in-out hover:scale-125" />
         </button>
       );
     }
