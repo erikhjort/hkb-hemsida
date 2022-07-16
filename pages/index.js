@@ -4,6 +4,7 @@ import About from "../sections/About";
 import Contact from "../sections/Contact";
 import Service from "../sections/Service";
 import Landing from "../sections/Landing";
+import Footer from "../sections/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <title>Hjort Konsultbyrå </title>
         <meta
           name="description"
-          content="Redovisning | Bokföring | Skatt | Deklaration"
+          content="Redovisning | Bokföring | Skatt | Deklaration "
         />
       </Head>
       <main>
@@ -22,6 +23,7 @@ export default function Home() {
         <Service />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
