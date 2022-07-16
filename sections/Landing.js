@@ -46,13 +46,11 @@ const Landing = () => {
         </div>
         <div className="relative h-40 w-40 md:h-56 md:w-56 lg:h-60 lg:w-60 xl:h-64 xl:w-64">
           <Image
-            objectFit="contain"
             src={stol}
             className={` transition duration-1000  ${
               isReady ? "scale-100  " : "scale-120 "
             }`}
             onLoadingComplete={onLoadCallback}
-            layout="fill"
             priority="true"
           />
         </div>

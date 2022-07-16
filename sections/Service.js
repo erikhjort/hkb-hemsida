@@ -167,11 +167,7 @@ const Service = () => {
                   </div>
                   <div className="hidden lg:flex">
                     <div className="relative h-40 w-40 md:h-56 md:w-56 lg:h-60 lg:w-60 xl:h-64 xl:w-64">
-                      <Image
-                        objectFit="contain"
-                        src={redovisning}
-                        layout="fill"
-                      />
+                      <Image src={redovisning} />
                     </div>
                   </div>
                 </div>
@@ -193,7 +189,7 @@ const Service = () => {
                   </div>
                   <div className="hidden lg:flex">
                     <div className="relative lg:h-52 lg:w-52 xl:h-64 xl:w-64">
-                      <Image objectFit="contain" src={skatt} layout="fill" />
+                      <Image src={skatt} />
                     </div>
                   </div>
                 </div>
@@ -219,11 +215,7 @@ const Service = () => {
                   </div>
                   <div className="hidden lg:flex">
                     <div className="relative lg:h-52 lg:w-52 xl:h-64 xl:w-64">
-                      <Image
-                        objectFit="contain"
-                        src={arsredovisning}
-                        layout="fill"
-                      />
+                      <Image src={arsredovisning} />
                     </div>
                   </div>
                 </div>
@@ -248,11 +240,7 @@ const Service = () => {
                   </div>
                   <div className="hidden lg:flex">
                     <div className="relative lg:h-52 lg:w-52 xl:h-64 xl:w-64">
-                      <Image
-                        objectFit="contain"
-                        src={bolagsservice}
-                        layout="fill"
-                      />
+                      <Image src={bolagsservice} />
                     </div>
                   </div>
                 </div>
@@ -276,11 +264,7 @@ const Service = () => {
                   </div>
                   <div className="hidden lg:flex lg:items-center">
                     <div className="relative lg:h-52 lg:w-52 xl:h-64 xl:w-64">
-                      <Image
-                        objectFit="contain"
-                        src={radgivning}
-                        layout="fill"
-                      />
+                      <Image src={radgivning} />
                     </div>
                   </div>
                 </div>
@@ -303,7 +287,7 @@ const Service = () => {
                   </div>
                   <div className="hidden lg:flex lg:items-center">
                     <div className="relative lg:h-52 lg:w-52 xl:h-64 xl:w-64">
-                      <Image objectFit="contain" src={ovrigt} layout="fill" />
+                      <Image src={ovrigt} />
                     </div>
                   </div>
                 </div>

@@ -23,7 +23,7 @@ const About = () => {
       <div className="flex flex-col items-center md:flex-row">
         <div className="md:w-1/2 md:flex md:justify-center">
           <div className="relative mt-3 h-40 w-40 md:h-56 md:w-56 lg:h-60 lg:w-60 xl:h-64 xl:w-64">
-            <Image objectFit="contain" src={qmark} layout="fill" />
+            <Image src={qmark} />
           </div>
         </div>
         <div className=" space-y-1  md:w-1/2">

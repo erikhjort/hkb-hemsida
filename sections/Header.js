@@ -78,7 +78,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-hkbbg dark:bg-hkbdarkmodebg  sticky top-0 z-50 flex items-center justify-between px-5">
+    <header className="bg-hkbbg dark:bg-hkbdarkmodebg sticky top-0 z-50 flex items-center justify-between px-5">
       <div className="relative h-14 w-14 flex-shrink-0 cursor-pointer lg:h-16">
         <Link href="/">
           <Image objectFit="contain" src={logo} priority="true" layout="fill" />

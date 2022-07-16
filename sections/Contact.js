@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="flex items-center mb-6 ">
           <div className="w-1/2 flex justify-center">
             <div className="relative mt-3 h-40 w-40 md:h-56 md:w-56 lg:h-60 lg:w-60 xl:h-64 xl:w-64">
-              <Image objectFit="contain" src={postman} layout="fill" />
+              <Image src={postman} />
             </div>
           </div>
           <div className=" w-1/2 flex flex-col items-center my-auto ">
