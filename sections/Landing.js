@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
-import stol from "../public/stol.png";
+import stol from "../public/stol.webp";
 
 const Landing = () => {
   const [isVisible, setIsVisible] = useState(true);
