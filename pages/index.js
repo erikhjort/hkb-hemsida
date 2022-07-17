@@ -1,10 +1,8 @@
 import Head from "next/head";
-import Header from "../sections/Header";
 import About from "../sections/About";
 import Contact from "../sections/Contact";
 import Service from "../sections/Service";
 import Landing from "../sections/Landing";
-import Footer from "../sections/Footer";
 
 export default function Home() {
   return (
@@ -17,13 +15,11 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Header />
         <Landing />
         <About />
         <Service />
         <Contact />
       </main>
-      <Footer />
     </>
   );
 }
